@@ -16,6 +16,12 @@ const Demo = () => {
 
     const handleSubmit = async (e) => {
         const { data } = await getSummary({ articleUrl: article.url });
+
+        if (data?.summary) {
+            const newArticle = { ...article, summary: data.summary };
+            setArticle(newArticle);
+            console.log(newArticle);
+        }
     }
 
     return (
