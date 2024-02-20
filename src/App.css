@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
+*/
+
+.main {
+    width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 120px 24px 160px 24px;
+    pointer-events: none;
+}
+
+.main:before {
+    background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
+    position: absolute;
+    content: "";
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.main:after {
+    content: "";
+    background-image: url("/src/assets/grid.svg");
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0.4;
+    filter: invert(1);
+}
+
+.gradient {
+    height: fit-content;
+    z-index: 3;
+    width: 100%;
+    max-width: 640px;
+    background-image: radial-gradient(at 27% 37%, hsla(215, 98%, 61%, 1) 0px, transparent 0%),
+        radial-gradient(at 97% 21%, hsla(125, 98%, 72%, 1) 0px, transparent 50%),
+        radial-gradient(at 52% 99%, hsla(354, 98%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 10% 29%, hsla(256, 96%, 67%, 1) 0px, transparent 50%),
+        radial-gradient(at 97% 96%, hsla(38, 60%, 74%, 1) 0px, transparent 50%),
+        radial-gradient(at 33% 50%, hsla(222, 67%, 73%, 1) 0px, transparent 50%),
+        radial-gradient(at 79% 53%, hsla(343, 68%, 79%, 1) 0px, transparent 50%);
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    filter: blur(100px) saturate(150%);
+    top: 80px;
+    opacity: 0.15;
+}
+
+@media screen and (max-width: 640px) {
+    .main {
+        padding: 0;
+    }
+}
+
+.app {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 7xl;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.black_btn {
+    border-radius: 9999px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    background-color: #000;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-size: 0.875rem;
+    color: #fff;
+    transition-property: background-color, color;
+    transition-duration: 150ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.black_btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.head_text {
+    margin-top: 1.25rem;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #000;
+    text-align: center;
+}
+
+.orange_gradient {
+    background-image: linear-gradient(to right, #ffb300, #ff6600, #ff7f00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.desc {
+    margin-top: 1.25rem;
+    font-size: 1.125rem;
+    color: #4b5563;
+    text-align: center;
+    max-width: 42rem;
+}
+
+.url_input {
+    display: block;
+    width: 100%;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    background-color: #fff;
+    padding-top: 0.825rem;
+    padding-bottom: 0.825rem;
+    padding-left: 2.5rem;
+    padding-right: 3rem;
+    font-size: 0.875rem;
+    box-shadow: 0 0.375rem 0 rgba(0, 0, 0, 0.05);
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
+    outline: none;
+}
+
+.url_input:focus {
+    border-color: #000;
+}
+
+.submit_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 0.375rem;
+    margin-right: 0.375rem;
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.375rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: #718096;
+    cursor: pointer;
+}
+
+.submit_btn:hover {
+    border-color: #718096;
+    color: #718096;
+}
+
+.link_card {
+    padding: 0.75rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    gap: 0.75rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+}
+
+.copy_btn {
+    width: 1.75rem;
+    height: 1.75rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: inset 10px -50px 94px 0 rgba(199, 199, 199, 0.2);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.blue_gradient {
+    font-weight: 900;
+    background-image: linear-gradient(to right, #3b82f6, #60a5fa, #93c5fd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.summary_box {
+    border-radius: 0.75rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 10px -50px 94px 0 rgba(199, 199, 199, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+}
