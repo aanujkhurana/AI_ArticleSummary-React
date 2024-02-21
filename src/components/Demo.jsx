@@ -49,7 +49,7 @@ const Demo = () => {
     return (
         <section className='mt-16 w-full max-w-xl'>
             {/* {SEARCH} */}
-            <span className='text-blue-600 justify-center font-inter font-normal p-2 mr-2'>Paste URL below</span>
+            <span className='text-blue-500 justify-center font-inter font-normal p-2 mr-2'>Paste URL below</span>
             <div className='flex flex-col w-full gap-3'>
                 <form className='relative flex justify-center items-center'
                     onSubmit={handleSubmit}
