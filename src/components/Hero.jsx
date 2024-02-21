@@ -12,7 +12,7 @@ const Hero = () => {
                 />
                 <button
                     type='button'
-                    onClick={() => window.open("http")}
+                    onClick={() => window.open("httphttps://github.com/aanujkhurana/AI_ArticleSummary-React")}
                     className='black_btn'
                 >
                     GitHub
