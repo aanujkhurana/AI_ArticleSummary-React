@@ -15,17 +15,18 @@ const Hero = () => {
                     onClick={() => window.open("http")}
                     className='black_btn'
                 >
-                    github
+                    GitHub
                 </button>
             </nav>
             <h1
                 className='head_text'
             >
-                Summarize Articles with <br className='max-md:hidden' />
+                Summarize website using <br className='max-md:hidden' />
                 <span className='orange_gradient'>OpenAI GPT-4</span>
             </h1>
             <h2 className='desc'>
-                Simplify long articles into short summaries with the help of OpenAI's GPT-4 model.
+                Simplify long articles into short summaries with the help of AI Summarize, an open-source tool
+                that transforms lengthy articles into clear and concise summaries
             </h2>
         </header>
     )
