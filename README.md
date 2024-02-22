@@ -1,8 +1,7 @@
 # AI SUMMARISER
 
 Open AI model via the RAPID API, enabling users to summarize Article by URLs with a single click.
-
-### [click here to visit](https://abouturl.netlify.app)
+#### [click here to visit](https://abouturl.netlify.app)
 
 ## Tech Stack
 
@@ -26,8 +25,8 @@ Open AI model via the RAPID API, enabling users to summarize Article by URLs wit
 
 ## Screenshot
 
-<div align="left">
-    <img src="/screenshots/img1.png" width="650px"</img>
-    <img src="/screenshots/img3.png" width="450px"</img>
-    <img src="/screenshots/img2.png" width="450px"</img>
+<div align="Center">
+    <img src="/screenshots/img3.png" width="800px"</img>
+    <img src="/screenshots/img2.png" width="400px"</img>
+    <img src="/screenshots/img1.png" width="400px"</img>
 </div>
