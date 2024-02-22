@@ -1,8 +1,33 @@
-# React + Vite
+# AI SUMMARISER
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Open AI model via the RAPID API, enabling users to summarize Article by URLs with a single click.
 
-Currently, two official plugins are available:
+### [click here to visit](https://abouturl.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+- React.js
+- Redux Toolkit
+- Tailwind CSS
+
+## Features
+
+- **Contemporary User Interface**: Boasting a contemporary and user-centric interface design, ensuring an intuitive browsing experience for all users.
+  
+- **Auto-Summarization**: Users can conveniently input the URL of extensive articles, with the web application utilizing AI to generate concise summaries of the content.
+  
+- **History Preservation via Local Storage**: The application incorporates a history feature, empowering users to locally save summaries, facilitating easy retrieval and management of their reading archives.
+  
+- **Clipboard Copying Functionality**: Facilitating effortless sharing and storage of summarized content by enabling users to copy it to their clipboard with ease.
+  
+- **Enhanced RTK Query API Requests**: Harnessing the advanced functionalities of Redux Toolkit (RTK) Query, the application executes API requests conditionally, streamlining data retrieval and management based on predefined criteria.
+
+- **Solid Code Structure and Reusability**: The application is engineered with a focus on a sturdy code architecture and reusable components, ensuring scalability and ease of maintenance for future enhancements and expansions.
+
+## Screenshot
+
+<div align="left">
+    <img src="/screenshots/img1.png" width="650px"</img>
+    <img src="/screenshots/img3.png" width="450px"</img>
+    <img src="/screenshots/img2.png" width="450px"</img>
+</div>
