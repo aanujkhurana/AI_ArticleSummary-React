@@ -1,9 +1,11 @@
-# AI Article Summarizer
+# AI Summarizer
 
 AI Summariser is a web application powered by the OpenAI model via the RAPID API, enabling users to summarize articles by URLs with a single click.
 
 [![NPM Version](https://img.shields.io/npm/v/d3-org-chart.svg)](https://npmjs.org/package/d3-org-chart)
 [![React](https://img.shields.io/badge/React-17.0.2-blue.svg)](https://reactjs.org/)
+[![Redux](https://img.shields.io/badge/Redux-4.1.1-purple.svg)](https://redux.js.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2.2.19-blueviolet.svg)](https://tailwindcss.com/)
 [![RAPID API](https://img.shields.io/badge/RAPID%20API-Enabled-orange)](https://rapidapi.com)
 
 #### [Click here to visit the website](https://abouturl.netlify.app)
