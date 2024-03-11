@@ -1,4 +1,4 @@
-# AI Summarizer
+# 📝 AI Article Summarizer
 
 AI Summariser is a web application powered by the OpenAI model via the RAPID API, enabling users to summarize articles by URLs with a single click.
 
@@ -8,7 +8,9 @@ AI Summariser is a web application powered by the OpenAI model via the RAPID API
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-2.2.19-blueviolet.svg)](https://tailwindcss.com/)
 [![RAPID API](https://img.shields.io/badge/RAPID%20API-Enabled-orange)](https://rapidapi.com)
 
-#### [Click here to visit the website](https://abouturl.netlify.app)
+## 🚀 Live Demo
+
+🔗 [Click here to visit the website](https://abouturl.netlify.app)
 
 <div align="center">
     <img src="/screenshots/img3.png" width="800px" alt="Screenshot"/>
@@ -16,13 +18,13 @@ AI Summariser is a web application powered by the OpenAI model via the RAPID API
     <img src="/screenshots/img1.png" width="400px" alt="Screenshot"/>
 </div>
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - React.js
 - Redux Toolkit
 - Tailwind CSS
 
-## Features
+## ✨ Features
 
 - **Contemporary User Interface**: Boasting a contemporary and user-centric interface design, ensuring an intuitive browsing experience for all users.
 
@@ -36,7 +38,7 @@ AI Summariser is a web application powered by the OpenAI model via the RAPID API
 
 - **Solid Code Structure and Reusability**: The application is engineered with a focus on a sturdy code architecture and reusable components, ensuring scalability and ease of maintenance for future enhancements and expansions.
 
-## Local Development
+## 🛠️ Local Development
 
 Follow these steps to set up the project locally on your machine.
 
@@ -80,3 +82,17 @@ npm run dev
 ```
 
 Visit [http://localhost:5173](http://localhost:5173) to access the locally hosted application.
+
+
+## Contribution
+
+Contributions are welcome! If you want to contribute, please fork the repository and create a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+
+- Thanks to OpenAI for providing the powerful AI model.
+- Special thanks to the contributors of React, Redux, Tailwind CSS, and other open-source libraries used in this project.
